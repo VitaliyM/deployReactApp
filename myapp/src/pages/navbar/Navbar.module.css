@@ -1,0 +1,16 @@
+.navBlock{
+    border-bottom: 2px solid green;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagesLink{
+    border: 2px solid;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 30px;
+    color: #000000;
+}
