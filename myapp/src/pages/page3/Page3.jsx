@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from './Page3.module.css';
 
 function Page3() {
   return (
-    <div>Page3</div>
+    <div className={styles.page3Block}>
+      <h1 className={styles.pageHeader}>Page3</h1>
+    </div>
   )
 }
 

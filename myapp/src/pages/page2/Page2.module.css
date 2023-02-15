@@ -1,0 +1,11 @@
+.page2Block{
+    background: url(../../img/page\ 2.png) no-repeat center;
+    width: 100%;
+    height: 80vh;
+}
+
+.pageHeader{
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+}
