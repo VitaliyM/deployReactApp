@@ -1,8 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
+import Main from './pages/Main';
+import Navbar from './pages/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      Learn React
+      <BrowserRouter>
+        <Navbar />
+        <Main />
+      </BrowserRouter>
     </div >
   );
 }
